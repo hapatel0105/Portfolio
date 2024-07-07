@@ -6,6 +6,7 @@ import { RiHtml5Line } from 'react-icons/ri';
 import { RiCss3Line } from 'react-icons/ri';
 import { RiJavascriptLine } from 'react-icons/ri';
 import { RiDatabase2Line } from 'react-icons/ri';
+import { RiBootstrapLine } from 'react-icons/ri';
 
 import { animate, motion } from 'framer-motion';
 
@@ -76,6 +77,13 @@ const Technologies = () => {
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <RiDatabase2Line  className='text-7xl text-neutral-500'/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <RiBootstrapLine  className='text-7xl text-blue-800'/>
             </motion.div>
         </motion.div>
     </div>
