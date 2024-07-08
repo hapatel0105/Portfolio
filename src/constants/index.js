@@ -3,6 +3,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from '../assets/projects/project-6.jpg';
+import project7 from '../assets/projects/project-7.jpg';
 
 export const HERO_CONTENT = `I am a passionate front end developer with a knack for crafting robust and scalable web applications.  Expertise in utilizing React JS, HTML5, CSS3, JS, PHP and other relevant design and development
 tools. I have developed projects with use of above mentioned skills which are perfectly responsive. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -56,6 +58,20 @@ export const PROJECTS = [
     description:
       "An E-commerce webpage for selling drones, which includes all the relevent information about drones, customers review, and FAQ.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "JavaScript"],
+  },
+  {
+    title: "RealEstate Website",
+    image: project6,
+    description:
+      "An E-commerce website for Real Estate bussiness development tool, webpage holds pricing cards, features, testimonials and login-signup",
+    technologies: ["HTML", "CSS", "React", "Tailwind", "JavaScript"],
+  },
+  {
+    title: "Who will pay the bill game",
+    image: project7,
+    description:
+      "It is a game in which user has to add list of players and it will predict random player which will show result on next page",
+    technologies: ["HTML", "React", "JavaScript"],
   },
   {
     title: "Edu-Scholar",
