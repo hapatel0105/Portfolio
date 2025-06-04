@@ -41,13 +41,15 @@ export const PROJECTS = [
     description:
       "Led the development of a comprehensive workflow and appointment management platform, leveraging Next.js, React, and TypeScript. The platform features a modern UI built with Tailwind CSS and component libraries like MUI and Mantine UI. Implemented secure authentication via Google OAuth and Facebook Login, along with advanced scheduling capabilities using FullCalendar. Enhanced user experience with interactive data visualization, drag-and-drop functionality, and talk-to-text features. Optimized performance through efficient state management with Redux Toolkit and React Query.",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Mantine UI", "MUI", "REST API", "FullCalendar", "Redux Toolkit", "React Query", "Facebook Login"],
+    link: "https://alpha.ehr.software/",
   },
   {
     title: "Click4Karmachari-Landing",
     image: project1,
     description:
-      "Working with the portal, I have designed a landing website for the portal. From where the user can know everything about the portal and how it works.",
+    "Working with the portal, I have designed a landing website for the portal. From where the user can know everything about the portal and how it works.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "JavaScript"],
+    link: "https://click4karmachari.com/",
   },
   {
     title: "Click4Karmachari-Portal",
@@ -62,6 +64,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "JavaScript", "Tailwind"],
+    link: "https://portfolio-harsh-patels-projects-83ad2735.vercel.app/",
   },
   {
     title: "Drone-Design",
@@ -76,6 +79,7 @@ export const PROJECTS = [
     description:
       "An E-commerce website for Real Estate bussiness development tool, webpage holds pricing cards, features, testimonials and login-signup",
     technologies: ["HTML", "CSS", "React", "Tailwind", "JavaScript"],
+    link: "https://real-estate-theta-two.vercel.app/",
   },
   {
     title: "Who will pay the bill game",
@@ -83,6 +87,7 @@ export const PROJECTS = [
     description:
       "It is a game in which user has to add list of players and it will predict random player which will show result on next page",
     technologies: ["HTML", "React", "JavaScript"],
+    link: "https://who-pays-the-bill-game.vercel.app/",
   },
   {
     title: "Edu-Scholar",
