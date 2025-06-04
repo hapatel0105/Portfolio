@@ -11,7 +11,7 @@ export const HERO_CONTENT = `I am a passionate front end developer with a knack 
 tools. I have developed projects with use of above mentioned skills which are perfectly responsive. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const ABOUT_TEXT = `Have 1.5 year of experiance as a Frontend Developer. Proficient in Next JS, React JS, Tailwind CSS, JavaScript, TypeScript, Material UI, Redux, Mantine UI, GIT, Jira and other relevant design and development tools. Completed graduation in Computer Science and Engineering with a strong academic record. A highly motivated and
-experienced Designer. Possesses strong problem-solving skills and the ability to work independently and as part of a team.I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 months of professional experience`;
+experienced Designer. Possesses strong problem-solving skills and the ability to work independently and as part of a team.I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.`;
 
 export const EXPERIENCES = [
   {
