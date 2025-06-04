@@ -1,3 +1,4 @@
+import project8 from "../assets/projects/project-8.jpg";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
@@ -6,13 +7,24 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from '../assets/projects/project-6.jpg';
 import project7 from '../assets/projects/project-7.jpg';
 
-export const HERO_CONTENT = `I am a passionate front end developer with a knack for crafting robust and scalable web applications.  Expertise in utilizing React JS, HTML5, CSS3, JS, PHP and other relevant design and development
+export const HERO_CONTENT = `I am a passionate front end developer with a knack for crafting robust and scalable web applications.  Expertise in utilizing Next JS, React JS, Tailwind CSS, JavaScript, TypeScript, Material UI, Redux, Mantine UI, Bootstrap, Websocket, GIT, REST API, Jira and other relevant design and development
 tools. I have developed projects with use of above mentioned skills which are perfectly responsive. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
-export const ABOUT_TEXT = `Completed graduation in Computer Science and Engineering with a strong academic record. A highly motivated and
-experienced Designer. Possesses strong problem-solving skills and the ability to work independently and as part of a team.I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 months of professional experience, I have worked with a variety of technologies, including React, HTML, CSS, JS, BOOTSTRAP, Tailwind. `;
+export const ABOUT_TEXT = `Have 1 year of experiance as a Frontend Developer. Proficient in Next JS, React JS, Tailwind CSS, JavaScript, TypeScript, Material UI, Redux, Mantine UI, GIT, Jira and other relevant design and development tools. Completed graduation in Computer Science and Engineering with a strong academic record. A highly motivated and
+experienced Designer. Possesses strong problem-solving skills and the ability to work independently and as part of a team.I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 months of professional experience`;
 
 export const EXPERIENCES = [
+  {
+    year: "July 2024 - May 2025",
+    role: "Front End Developer",
+    company: "BitFront Infotech",
+    description: `Developed responsive and interactive user interfaces using React JS, ensuring modern design compliance and optimal user experience across devices.
+    Integrated RESTful APIs and managed scalable application state with Redux, promoting consistent and efficient data flow.
+    Built and maintained reusable component libraries and custom hooks to standardize development patterns and enhance productivity.
+    Collaborated with backend teams to define API contracts and consume endpoints effectively for seamless full-stack integration.
+    Work environment was good there, learnt how to manage & how to build good relationship with Manager and colleagues.`,
+    technologies: ["Javascript", "TypeScript", "Next JS", "React.js", "HTML", "CSS", "Tailwind", "Bootstrap", "Redux", "Material UI", "Mantine UI", "REST API", "GIT", "Jira", "monday.com", "Websocket"],
+  },
   {
     year: "Jan 2024 - April 2024",
     role: "Junior Front End Developer",
@@ -20,17 +32,16 @@ export const EXPERIENCES = [
     description: `It was 4 Months internship, I was trained as Frontend web developer. I have worked on several projects of the company mastered HTML5, CSS3, JS, BOOTSTRAP. I have designed frontend of click4karmachari website from scratch with the whole portal.Work environment was good there, learnt how to manage & how to build good relationship with Manager and colleagues.`,
     technologies: ["Javascript", "React.js", "HTML", "CSS", "Tailwind", "Bootstrap"],
   },
-  {
-    year: "July 2023 - Aug 2023",
-    role: "Flutter Developer",
-    company: "Techomax Solution Pvt. Ltd.",
-    description: `• It was 15 days internship, I was trained as flutter mobile application developer. I have worked as flutter developer after receiving training of flutter, map integrating, application UI, and I have
-developed small application as trainee same as WhatsApp (social media application). Work environment was good there, learnt how to manage & how to build good relationship with Manager and colleagues.`,
-    technologies: ["Flutter", "Dart", "Git"],
-  },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Emerge",
+    image: project8,
+    description:
+      "Led the development of a comprehensive workflow and appointment management platform, leveraging Next.js, React, and TypeScript. The platform features a modern UI built with Tailwind CSS and component libraries like MUI and Mantine UI. Implemented secure authentication via Google OAuth and Facebook Login, along with advanced scheduling capabilities using FullCalendar. Enhanced user experience with interactive data visualization, drag-and-drop functionality, and talk-to-text features. Optimized performance through efficient state management with Redux Toolkit and React Query.",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Mantine UI", "MUI", "REST API", "FullCalendar", "Redux Toolkit", "React Query", "Facebook Login"],
+  },
   {
     title: "Click4Karmachari-Landing",
     image: project1,
