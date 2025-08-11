@@ -99,7 +99,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "16 Balaji Luxuria, Kim, Surat, Gujarat - 394110 ",
-  phoneNo: "+91 63511 97332 ",
-  email: "harshpate7102002@gmail.com",
+  address: "200 E Fillmore St, Phoenix, AZ 85004",
+  phoneNo: "+1 (623) 200-1604 ",
+  email: "hpate251@asu.edu",
 };
