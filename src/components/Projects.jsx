@@ -1,6 +1,7 @@
 import React from 'react'
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -24,7 +25,12 @@ const Projects = () => {
                     initial={{opacity:0, x: 100 }}
                     transition={{ duration: 1 }}
                     className='w-full max-w-xl lg:w-3/4'>
-                        <h6 className='mb-2 font-semibold'>{project.title}</h6>
+                        <div className='flex justify-between items-center'>
+                            <h6 className='mb-2 font-semibold'>{project.title}</h6>
+                            <a href={project.link} target='_blank' rel='noopener noreferrer'>
+                                <FaGithub />
+                            </a>
+                        </div>
                         <p className='mb-4 text-neutral-400'>{project.description}</p>
                         <div className='flex flex-wrap gap-2'>
                             {project.technologies.map((tech, index) => (

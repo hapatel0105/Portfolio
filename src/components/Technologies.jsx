@@ -6,6 +6,7 @@ import {
     RiJavascriptLine,
     RiGitMergeLine,
     RiCalendarTodoLine
+    
 } from 'react-icons/ri';
 import { 
     SiTypescript,
@@ -16,7 +17,16 @@ import {
     SiMantine,
     SiJira,
     SiBootstrap,
-    SiSocketdotio
+    SiSocketdotio,
+    SiNodedotjs,
+    SiMysql,
+    SiPostgresql,
+    SiMongodb,
+    SiExpress,
+    SiDocker,
+    SiFirebase,
+    SiAwslambda,
+    // SiHtml5Line,
 } from 'react-icons/si';
 import { TbApi } from 'react-icons/tb';
 import { motion } from 'framer-motion';
@@ -61,6 +71,14 @@ const Technologies = () => {
         { icon: SiMui, color: 'text-blue-400', name: 'Material UI', duration: 3.1 },
         { icon: SiMantine, color: 'text-cyan-300', name: 'Mantine UI', duration: 2.8 },
         { icon: TbApi, color: 'text-green-400', name: 'REST API', duration: 2.5 },
+        { icon: SiNodedotjs, color: 'text-green-600', name: 'Node.js', duration: 2.6 },
+        { icon: SiExpress, color: 'text-gray-400', name: 'Express.js', duration: 2.4 },
+        { icon: SiMysql, color: 'text-blue-600', name: 'MySQL', duration: 2.8 },
+        { icon: SiPostgresql, color: 'text-blue-500', name: 'PostgreSQL', duration: 2.7 },
+        { icon: SiMongodb, color: 'text-green-500', name: 'MongoDB', duration: 2.6 },
+        { icon: SiDocker, color: 'text-blue-400', name: 'Docker', duration: 3.0 },
+        { icon: SiAwslambda, color: 'text-orange-500', name: 'AWS Lambda', duration: 2.8 },
+        { icon: SiFirebase, color: 'text-yellow-500', name: 'Firebase', duration: 2.7 },
         { icon: RiGitMergeLine, color: 'text-orange-500', name: 'Git', duration: 3.3 },
         { icon: SiJira, color: 'text-blue-500', name: 'Jira', duration: 2.7 },
         { icon: RiCalendarTodoLine, color: 'text-blue-400', name: 'Monday.com', duration: 2.9 },

@@ -7,16 +7,14 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from '../assets/projects/project-6.jpg';
 import project7 from '../assets/projects/project-7.jpg';
 
-export const HERO_CONTENT = `I am a passionate front end developer with a knack for crafting robust and scalable web applications.  Expertise in utilizing Next JS, React JS, Tailwind CSS, JavaScript, TypeScript, Material UI, Redux, Mantine UI, Bootstrap, Websocket, GIT, REST API, Jira and other relevant design and development
-tools. I have developed projects with use of above mentioned skills which are perfectly responsive. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a results-driven Full Stack Developer with expertise in building enterprise-grade web applications and scalable digital solutions. Specialized in modern frontend frameworks including Next.js, React.js, and TypeScript, complemented by robust backend development skills. Proficient in state management with Redux, UI component libraries like Material-UI and Mantine UI, and responsive design using Tailwind CSS and Bootstrap. Experienced in RESTful API development, WebSocket implementations, and version control with Git. I excel in collaborative development environments, delivering high-performance applications that meet business requirements while maintaining clean, maintainable code. Committed to continuous learning and staying current with emerging technologies to deliver innovative solutions.`;
 
-export const ABOUT_TEXT = `Have 1.5 year of experiance as a Frontend Developer. Proficient in Next JS, React JS, Tailwind CSS, JavaScript, TypeScript, Material UI, Redux, Mantine UI, GIT, Jira and other relevant design and development tools. Completed graduation in Computer Science and Engineering with a strong academic record. A highly motivated and
-experienced Designer. Possesses strong problem-solving skills and the ability to work independently and as part of a team.I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.`;
+export const ABOUT_TEXT = `I am a passionate Full Stack Developer with 1.5 years of experience building end-to-end web applications and scalable digital solutions. Proficient in modern frontend technologies including Next.js, Node,js, React.js, TypeScript, and responsive design with Tailwind CSS, while also skilled in backend development, API integration, and database management. Experienced with state management using Redux, UI component libraries like Material UI and Mantine UI, and version control with Git. I hold a degree in Computer Science and Engineering with a strong academic foundation. Known for strong problem-solving abilities, collaborative teamwork, and delivering high-quality, user-centric applications that bridge the gap between frontend aesthetics and backend functionality.`;
 
 export const EXPERIENCES = [
   {
     year: "July 2024 - May 2025",
-    role: "Front End Developer",
+    role: "Full Stack Developer",
     company: "BitFront Infotech",
     description: `Developed responsive and interactive user interfaces using React JS, ensuring modern design compliance and optimal user experience across devices.
     Integrated RESTful APIs and managed scalable application state with Redux, promoting consistent and efficient data flow.
@@ -27,9 +25,9 @@ export const EXPERIENCES = [
   },
   {
     year: "Jan 2024 - April 2024",
-    role: "Junior Front End Developer",
+    role: "Junior Full Stack Developer",
     company: "MBH Techonologies Pvt. Ltd.",
-    description: `It was 4 Months internship, I was trained as Frontend web developer. I have worked on several projects of the company mastered HTML5, CSS3, JS, BOOTSTRAP. I have designed frontend of click4karmachari website from scratch with the whole portal.Work environment was good there, learnt how to manage & how to build good relationship with Manager and colleagues.`,
+    description: `It was 4 Months internship, I was trained as Full Stack developer. I have worked on several projects of the company mastered HTML5, CSS3, JS, BOOTSTRAP. I have designed frontend of click4karmachari website from scratch with the whole portal.Work environment was good there, learnt how to manage & how to build good relationship with Manager and colleagues.`,
     technologies: ["Javascript", "React.js", "HTML", "CSS", "Tailwind", "Bootstrap"],
   },
 ];
