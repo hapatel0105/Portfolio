@@ -4,16 +4,18 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
-import project6 from '../assets/projects/project-6.jpg';
-import project7 from '../assets/projects/project-7.jpg';
+import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
+import project9 from "../assets/projects/project-9.jpg";
+import project10 from "../assets/projects/project-10.jpg";
 
-export const HERO_CONTENT = `I am a results-driven Full Stack Developer with expertise in building enterprise-grade web applications and scalable digital solutions. Specialized in modern frontend frameworks including Next.js, React.js, and TypeScript, complemented by robust backend development skills. Proficient in state management with Redux, UI component libraries like Material-UI and Mantine UI, and responsive design using Tailwind CSS and Bootstrap. Experienced in RESTful API development, WebSocket implementations, and version control with Git. I excel in collaborative development environments, delivering high-performance applications that meet business requirements while maintaining clean, maintainable code. Committed to continuous learning and staying current with emerging technologies to deliver innovative solutions.`;
+export const HERO_CONTENT = `Results-oriented Full Stack Developer specializing in designing and delivering enterprise-grade web applications and scalable digital solutions. Skilled in modern frontend frameworks such as Next.js, React.js, and TypeScript, complemented by robust backend development expertise. Proficient in state management with Redux, UI component libraries including Material-UI and Mantine UI, and responsive design using Tailwind CSS and Bootstrap. Experienced in building RESTful APIs, implementing WebSocket communication, and leveraging Git for version control. Thrives in collaborative environments, consistently delivering high-performance, maintainable applications aligned with business objectives. Committed to continuous learning and adopting emerging technologies to drive innovative solutions.`;
 
-export const ABOUT_TEXT = `I am a passionate Full Stack Developer with 1.5 years of experience building end-to-end web applications and scalable digital solutions. Proficient in modern frontend technologies including Next.js, Node,js, React.js, TypeScript, and responsive design with Tailwind CSS, while also skilled in backend development, API integration, and database management. Experienced with state management using Redux, UI component libraries like Material UI and Mantine UI, and version control with Git. I hold a degree in Computer Science and Engineering with a strong academic foundation. Known for strong problem-solving abilities, collaborative teamwork, and delivering high-quality, user-centric applications that bridge the gap between frontend aesthetics and backend functionality.`;
+export const ABOUT_TEXT = `Dedicated Full Stack Developer with over 2 years of experience building end-to-end web applications and scalable digital platforms. Proficient in frontend technologies including Next.js, Node.js, React.js, and TypeScript, with a strong focus on responsive design using Tailwind CSS. Skilled in backend development, API integration, and database management, with hands-on experience in state management using Redux and leveraging UI component libraries such as Material-UI and Mantine UI. Holds a degree in Computer Science and Engineering, bringing a solid technical foundation and problem-solving mindset. Recognized for delivering high-quality, user-centric applications through effective collaboration, clean code practices, and a balance between frontend aesthetics and backend functionality.`;
 
 export const EXPERIENCES = [
   {
-    year: "July 2024 - May 2025",
+    year: "July 2023 - July 2025",
     role: "Full Stack Developer",
     company: "BitFront Infotech",
     description: `Developed responsive and interactive user interfaces using React JS, ensuring modern design compliance and optimal user experience across devices.
@@ -21,14 +23,38 @@ export const EXPERIENCES = [
     Built and maintained reusable component libraries and custom hooks to standardize development patterns and enhance productivity.
     Collaborated with backend teams to define API contracts and consume endpoints effectively for seamless full-stack integration.
     Work environment was good there, learnt how to manage & how to build good relationship with Manager and colleagues.`,
-    technologies: ["Javascript", "TypeScript", "Next JS", "React.js", "HTML", "CSS", "Tailwind", "Bootstrap", "Redux", "Material UI", "Mantine UI", "REST API", "GIT", "Jira", "monday.com", "Websocket"],
+    technologies: [
+      "Javascript",
+      "TypeScript",
+      "Next JS",
+      "React.js",
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Bootstrap",
+      "Redux",
+      "Material UI",
+      "Mantine UI",
+      "REST API",
+      "GIT",
+      "Jira",
+      "monday.com",
+      "Websocket",
+    ],
   },
   {
-    year: "Jan 2024 - April 2024",
-    role: "Junior Full Stack Developer",
+    year: "Jan 2023 - May 2023",
+    role: "Frontend Developer Intern",
     company: "MBH Techonologies Pvt. Ltd.",
-    description: `It was 4 Months internship, I was trained as Full Stack developer. I have worked on several projects of the company mastered HTML5, CSS3, JS, BOOTSTRAP. I have designed frontend of click4karmachari website from scratch with the whole portal.Work environment was good there, learnt how to manage & how to build good relationship with Manager and colleagues.`,
-    technologies: ["Javascript", "React.js", "HTML", "CSS", "Tailwind", "Bootstrap"],
+    description: `Contributed to multiple client-facing projects by designing and implementing interactive web pages using React.js, HTML5, CSS3, and supporting libraries. Developed reusable components and responsive layouts to enhance user experience across desktop and mobile platforms. Assisted in debugging, testing, and documenting frontend features, ensuring high-quality and maintainable code. Collaborated with cross-functional teams, including designers and backend developers, to integrate APIs and streamline workflows. Shadowed senior developers to adopt best coding practices, improve performance, and maintain consistency across projects, gaining hands-on experience with modern frontend tools, Git version control, and agile development methodologies.`,
+    technologies: [
+      "Javascript",
+      "React.js",
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Bootstrap",
+    ],
   },
 ];
 
@@ -38,14 +64,72 @@ export const PROJECTS = [
     image: project8,
     description:
       "Led the development of a comprehensive workflow and appointment management platform, leveraging Next.js, React, and TypeScript. The platform features a modern UI built with Tailwind CSS and component libraries like MUI and Mantine UI. Implemented secure authentication via Google OAuth and Facebook Login, along with advanced scheduling capabilities using FullCalendar. Enhanced user experience with interactive data visualization, drag-and-drop functionality, and talk-to-text features. Optimized performance through efficient state management with Redux Toolkit and React Query.",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Mantine UI", "MUI", "REST API", "FullCalendar", "Redux Toolkit", "React Query", "Facebook Login"],
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Mantine UI",
+      "MUI",
+      "REST API",
+      "FullCalendar",
+      "Redux Toolkit",
+      "React Query",
+      "Facebook Login",
+    ],
     link: "https://alpha.ehr.software/",
+  },
+  {
+    title: "AI Skill Gap Analyzer",
+    image: project10,
+    description:
+      "Engineered an AI-driven platform to analyze resumes and job descriptions, identifying skill gaps and providing actionable insights. Developed personalized learning paths and project recommendations with curated resources and timelines. Built a responsive frontend using Next.js, React, and TypeScript, and integrated backend APIs with Node.js, Express, and Axios for seamless data processing. Optimized state management and performance to handle multiple concurrent analyses efficiently, enhancing user experience and practical skill development.",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Axios",
+      "REST API",
+      "NLP",
+      "Responsive Design",
+    ],
+    link: "https://skill-gap-analyzer-bay.vercel.app/",
+  },
+  {
+    title: "AI-Powered Content Generator",
+    image: project9,
+    description:
+      "Developed a dynamic content generation platform leveraging Next.js, React, and TypeScript, featuring an AI-powered modal interface for seamless text generation. Integrated backend APIs using Node.js and Express, with Axios for efficient API communication. Built a responsive and modern UI using Tailwind CSS, ensuring smooth user interactions and real-time content updates. Optimized performance and state management to handle multiple user requests and AI responses efficiently.",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Axios",
+      "REST API",
+      "OpenAI API",
+      "Responsive Design",
+    ],
+    link: "https://ai-powerd-content-generator.vercel.app/",
+  },
+  {
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "React", "JavaScript", "Tailwind"],
+    link: "https://portfolio-harsh-patels-projects-83ad2735.vercel.app/",
   },
   {
     title: "Click4Karmachari-Landing",
     image: project1,
     description:
-    "Working with the portal, I have designed a landing website for the portal. From where the user can know everything about the portal and how it works.",
+      "Working with the portal, I have designed a landing website for the portal. From where the user can know everything about the portal and how it works.",
     technologies: ["HTML", "CSS", "React", "Bootstrap", "JavaScript"],
     link: "https://click4karmachari.com/",
   },
@@ -55,14 +139,6 @@ export const PROJECTS = [
     description:
       "Designed employee management system, where employees can manage everything starting from attendance to salary slips adding daily tasks or project tasks requesting leave or voucher everything at one place.",
     technologies: ["HTML", "CSS", "Bootstrap", "React", "JavaScript"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "JavaScript", "Tailwind"],
-    link: "https://portfolio-harsh-patels-projects-83ad2735.vercel.app/",
   },
   {
     title: "Drone-Design",
