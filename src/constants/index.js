@@ -60,24 +60,21 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Emerge",
+    title: "Bank Sathi",
     image: project8,
     description:
-      "Led the development of a comprehensive workflow and appointment management platform, leveraging Next.js, React, and TypeScript. The platform features a modern UI built with Tailwind CSS and component libraries like MUI and Mantine UI. Implemented secure authentication via Google OAuth and Facebook Login, along with advanced scheduling capabilities using FullCalendar. Enhanced user experience with interactive data visualization, drag-and-drop functionality, and talk-to-text features. Optimized performance through efficient state management with Redux Toolkit and React Query.",
+      "Led the development of a comprehensive workflow and appointment management platform, leveraging Next.js, React, and TypeScript. The platform features a modern UI built with Tailwind CSS and component libraries like MUI and Mantine UI. Implemented secure authentication via Google OAuth and Facebook Login, along with advanced scheduling capabilities This project is a cutting-edge fintech platform designed to democratize access to financial products and empower a network of financial advisors. The application provides a comprehensive suite of tools for advisors to connect with customers, recommend tailored financial solutions, and manage their business efficiently. Built with a focus on performance and security, the front-end leverages the power of React and Next.js, styled with Tailwind CSS, to deliver a fast and intuitive user interface. The back-end is supported by a robust infrastructure that includes Webpack, and the application's performance is optimized with Cloudflare Browser Insights and Rocket Loader, ensuring a secure and reliable experience for all users. This project not only showcases my technical expertise in modern web development but also my ability to contribute to a platform with a significant social and economic impact.",
     technologies: [
       "Next.js",
-      "React",
       "TypeScript",
       "Tailwind CSS",
       "Mantine UI",
       "MUI",
-      "REST API",
-      "FullCalendar",
       "Redux Toolkit",
       "React Query",
       "Facebook Login",
     ],
-    link: "https://alpha.ehr.software/",
+    link: "https://banksathi.com/",
   },
   {
     title: "AI Skill Gap Analyzer",
