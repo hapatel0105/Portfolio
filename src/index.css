@@ -1,9 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: "Inter", sans-serif;
+/* ------------------------------------------------------------------ *
+ *  Base
+ * ------------------------------------------------------------------ */
+@layer base {
+  :root {
+    font-family: 'Inter', system-ui, sans-serif;
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-base text-ink antialiased;
+    background-image:
+      radial-gradient(60rem 40rem at 50% -10%, rgba(45, 212, 191, 0.10), transparent 60%),
+      radial-gradient(50rem 40rem at 90% 10%, rgba(139, 92, 246, 0.08), transparent 55%);
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(45, 212, 191, 0.25);
+    color: #d7fff6;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #08080a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #23252e;
+    border-radius: 999px;
+    border: 2px solid #08080a;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2f323d;
+  }
+
+  /* Visible focus ring for keyboard users */
+  :focus-visible {
+    outline: 2px solid #2dd4bf;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ *  Keyboard design-system components
+ * ------------------------------------------------------------------ */
+@layer components {
+  /* Physical keycap surface */
+  .keycap {
+    @apply relative rounded-key bg-key shadow-keycap;
+    background-image: linear-gradient(180deg, #22242e 0%, #16171d 55%, #121319 100%);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    transition: transform 0.14s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.14s ease, background-color 0.14s ease;
+  }
+  .keycap-hover:hover {
+    @apply shadow-keycap-hover;
+    transform: translateY(-1px);
+  }
+  .keycap-press:active {
+    @apply shadow-keycap-press;
+    transform: translateY(3px);
+  }
+
+  /* Small legend cap (skills, tags) */
+  .cap-sm {
+    @apply relative inline-flex items-center justify-center rounded-keysm bg-key px-3 py-1.5
+           font-mono text-xs tracking-wide text-ink-muted shadow-keycap;
+    background-image: linear-gradient(180deg, #20222b 0%, #16171d 100%);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    transition: transform 0.12s ease, box-shadow 0.12s ease, color 0.12s ease;
+  }
+  .cap-sm:active {
+    @apply shadow-keycap-press;
+    transform: translateY(2px);
+  }
+
+  /* Glassy panel used for cards / frame */
+  .panel {
+    @apply rounded-2xl border border-white/5 bg-panel/70 backdrop-blur-md;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04),
+      0 20px 50px -20px rgba(0, 0, 0, 0.8);
+  }
+
+  /* Section eyebrow / legend text */
+  .legend {
+    @apply font-mono text-xs uppercase tracking-[0.35em] text-accent/80;
+  }
+
+  .grad-accent {
+    @apply bg-gradient-to-r from-accent via-accent-glow to-neon bg-clip-text text-transparent;
+  }
+
+  /* ---------------------------------------------------------------- *
+   *  Cinematic 3D "stage" (hero) — spotlight room with perspective floor
+   * ---------------------------------------------------------------- */
+  .stage {
+    perspective: 900px;
+  }
+  .stage__spot {
+    position: absolute;
+    left: 50%;
+    top: -14%;
+    transform: translateX(-50%);
+    width: 70vw;
+    height: 90%;
+    background: radial-gradient(
+      50% 50% at 50% 0%,
+      rgba(94, 234, 212, 0.32) 0%,
+      rgba(45, 212, 191, 0.1) 34%,
+      transparent 68%
+    );
+    filter: blur(6px);
+  }
+  .stage__source {
+    position: absolute;
+    left: 50%;
+    top: -2%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 90px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(214, 255, 246, 0.9), rgba(94, 234, 212, 0.25) 60%, transparent);
+    filter: blur(8px);
+  }
+  .stage__floor {
+    position: absolute;
+    left: 50%;
+    bottom: -6%;
+    width: 220%;
+    height: 62%;
+    transform: translateX(-50%) rotateX(66deg);
+    transform-origin: bottom center;
+    background-image:
+      linear-gradient(rgba(45, 212, 191, 0.16) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(45, 212, 191, 0.12) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: linear-gradient(to top, #000 4%, transparent 72%);
+    mask-image: linear-gradient(to top, #000 4%, transparent 72%);
+  }
+  .stage__vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(115% 80% at 50% 28%, transparent 38%, rgba(0, 0, 0, 0.72) 100%);
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ *  Reduced motion
+ * ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
 }
